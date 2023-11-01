@@ -1,0 +1,112 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(54, 19, 19);
+}
+.text1:active{
+   background-color: rgb(162, 42, 218);}
+
+.text1:visited{
+    color: rgb(255, 106, 223);
+}
+.text1:any-link{
+    color: aqua;
+}
+.text1:hover{
+    color: rgb(133, 255, 51);
+}
+.bg{
+    background-color: pink;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+p:nth-child(even){
+    color: #ff00d4;
+}
+p:nth-child(odd){
+    color: #00a558;
+}
+table,th,tr,td{
+    border: 1px solid rgb(22, 21, 78);
+    width: 1000px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+th{
+    background-color: paleturquoise;
+    color:blue ;
+}
+tr:nth-child(odd){
+    background-color: rgb(204, 204, 204);
+}
+.div{
+        border: 1px solid rgb(201, 201, 201);
+        margin: 0 auto;
+        text-align: center;
+        text-transform: capitalize;
+        overflow: auto;
+        height: 400px;
+        background-color: rgb(255, 215, 237);
+        width: 300px;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 250px;
+    left: 100px;
+
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    top: 400px;
+    left: 700px;
+}
+.green{
+    width: 600px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    left: 150px;
+    z-index: 3;
+}
+.img{
+    width: 300px;
+    float: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.set{
+    padding-top: 500px;
+}
+
+.icon{
+    width: 25px;
+    padding-bottom: 10px;
+}
+.position3{
+    position: relative;
+    left: 190px;
+}
+.position4{
+    position: relative;
+    left: 200px;
+}
+@font-face {
+    font-family: 'winter_windregular';
+    src: url('winter_wind-webfont.woff2') format('woff2'),
+         url('winter_wind-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.font{
+    font-family:"winter_windregular" ;
+    font-size: 80px;
+    color: purple;
+}
